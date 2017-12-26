@@ -106,5 +106,9 @@ class MasterViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedMonster = monsters[indexPath.row]
         delegate?.monsterSelected(selectedMonster)
+        
+        if let detailViewController = delegate as? DetailViewController {
+            splitViewController?.showDetailViewController(detailViewController, sender: nil)
+        }
     }
 }
