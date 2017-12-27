@@ -14,6 +14,7 @@
 		749945871FF1C27D006CE0C3 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749945861FF1C27D006CE0C3 /* MasterViewController.swift */; };
 		749945891FF1C46A006CE0C3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749945881FF1C46A006CE0C3 /* DetailViewController.swift */; };
 		7499458B1FF22497006CE0C3 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7499458A1FF22497006CE0C3 /* Monster.swift */; };
+		7499458D1FF32471006CE0C3 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7499458C1FF32471006CE0C3 /* ReadMe.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		749945861FF1C27D006CE0C3 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		749945881FF1C46A006CE0C3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7499458A1FF22497006CE0C3 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		7499458C1FF32471006CE0C3 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				749945721FF1BC50006CE0C3 /* AppDelegate.swift */,
+				7499458C1FF32471006CE0C3 /* ReadMe.txt */,
 				749945761FF1BC50006CE0C3 /* Main.storyboard */,
 				749945861FF1C27D006CE0C3 /* MasterViewController.swift */,
 				7499458A1FF22497006CE0C3 /* Monster.swift */,
@@ -131,6 +134,7 @@
 			files = (
 				7499457D1FF1BC50006CE0C3 /* LaunchScreen.storyboard in Resources */,
 				7499457A1FF1BC50006CE0C3 /* Assets.xcassets in Resources */,
+				7499458D1FF32471006CE0C3 /* ReadMe.txt in Resources */,
 				749945781FF1BC50006CE0C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
